@@ -1,0 +1,11 @@
+.mainfooter {
+    background-color: $dark-color;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link--youtube {
+    color: $white-color;
+    font-size: 12px;
+}

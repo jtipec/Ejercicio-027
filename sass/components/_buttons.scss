@@ -1,0 +1,25 @@
+// placeholder
+// .btn-dark {
+//     @extend %btn;
+//     background-color: $primary-color;
+//     border: none;
+//     color: $white-color;
+// }
+// .btn-outline {
+//     @extend %btn;
+//     border: 1px solid $primary-color;
+//     color: $primary-color;
+// }
+
+// mixins
+.btn-dark {
+    @include btn;
+    background-color: $primary-color;
+    border: none;
+    color: $white-color;
+}
+.btn-outline {
+    @include btn;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+}
