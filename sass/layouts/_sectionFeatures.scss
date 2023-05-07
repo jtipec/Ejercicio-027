@@ -10,3 +10,18 @@
 .features-row-content {
     width: 48%;
 }
+
+@media screen and (max-width: 768px) {
+    .features {
+        padding: 50px 0 0 0;
+    }
+    .features-row {
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .features-row-content {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}

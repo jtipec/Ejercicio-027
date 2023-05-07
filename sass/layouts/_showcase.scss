@@ -2,3 +2,9 @@
     text-align: center;
     padding-top: 350px;
 }
+@media screen and (max-width: 768px) {
+    .showcase {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}

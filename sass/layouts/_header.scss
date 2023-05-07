@@ -6,3 +6,8 @@
     height: 100vh;
     color: $white-color;
 }
+@media screen and (max-width: 768px) {
+    .mainheader {
+        height: 100%;
+    }
+}

@@ -9,3 +9,9 @@
     color: $white-color;
     font-size: 12px;
 }
+@media screen and (max-width: 768px) {
+    .link--youtube {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+}
